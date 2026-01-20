@@ -2,17 +2,23 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt 
+import seaborn as sns
+import numpy as np
 
 df = pd.read_csv("Titanic-Dataset.csv")
 
-age = df["Age"]
+age = df['Age']
 survivors = df["Survived"]
 
-data_list = ["age"]
-print(data_list)
 
-if age <= 20 and survivors == 1:
-    print("hi")
+
+
+bins1 = [0, 1]
+la
+
+
+bins2 = [0, 13, 18, 65, ]
+labels2 = ["0-13", "13 18", "18 - 65", ">65"]
 
     
 
